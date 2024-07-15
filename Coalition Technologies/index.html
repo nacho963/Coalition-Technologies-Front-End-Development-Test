@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tech.Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img src="images/TestLogo.svg" alt="Tech.Care" width="auto" height="48">
+            </a>
+              <div class="collapse navbar-collapse d-lg-flex" id="navbarMenu"></div>
+                
+                <ul class="navbar-nav col-6 offset-1 justify-content-lg-center">
+                  <li class="nav-item icon-link" href="#">
+                    <button class="btn" type="button">
+                        <img src="images/home_FILL0_wght300_GRAD0_opsz24.svg"  alt="Home" width="auto" height="14" style="padding-right: 5px;">
+                        Overview
+                    </button>
+                  </li>
+                  <li class="nav-item icon-link" href="#">
+                    <button class="btn active" type="button">
+                        <img src="images/group_FILL0_wght300_GRAD0_opsz24.svg" alt="Patients" width="auto" height="14" style="padding-right: 5px;">
+                        Patients
+                    </button>
+                  </li>
+                  <li class="nav-item icon-link" href="#">
+                    <button class="btn" type="button">
+                        <img src="images/calendar_today_FILL0_wght300_GRAD0_opsz24.svg" alt="Schedule" width="auto" height="14" style="padding-right: 5px;">
+                        Schedule
+                    </button>
+                  </li>
+                  <li class="nav-item icon-link" href="#">
+                    <button class="btn" type="button">
+                        <img src="images/chat_bubble_FILL0_wght300_GRAD0_opsz24.svg" alt="Message" width="auto" height="14" style="padding-right: 5px;">
+                        Message
+                    </button>
+                  </li>
+                  <li class="nav-item icon-link" href="#">
+                    <button class="btn" type="button">
+                        <img src="images/credit_card_FILL0_wght300_GRAD0_opsz24.svg" alt="Transactions" width="auto" height="14" style="padding-right: 5px;">
+                        Transactions
+                    </button>
+                  </li>
+                </ul>
+                <ul class="navbar-nav col-3 offset-1 justify-content-right">
+                    <li class="nav-item icon-link " href="#">
+                        <img src="images/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc@2x.png"  alt="User" width="auto" height="38" style="padding-right: 5px;">
+                      <div style="width: auto; border-right: 1px solid #EDEDED; margin-right: 10px;">
+                          <a class="user-button"><b>Dr. Jose Simmons</b></a>
+                          <br>
+                          <a class="user-button2" style="padding-right: 10px;">General Practitioner</a>
+                        </div>
+                      <img src="images/settings_FILL0_wght300_GRAD0_opsz24.svg"  alt="Settings" width="auto" height="20" style="padding-right: 10px;">
+ 
+                      <img src="images/more_vert_FILL0_wght300_GRAD0_opsz24.svg"  alt="Options" width="auto" height="20" style="padding-right: 10px;">
+                    </li>
+                  </ul>
+              </div>
+        
+        </div>
+    </nav>
+    <div class="container" style="padding-top: 20px !important; padding-bottom: 20px !important; max-width: 1600px;" >
+        <div class="row g-4" >
+          <div class="col-3" >
+            <div class="p-0 sections" style="padding-bottom: 20px !important;">
+                <div class="row p-3">
+                <div class="col-8">
+                <h2 style="font-size: 24px;"><b>Patients</b></h2>
+                </div>  
+                <div class="col-4 badge">
+                <img src="images/search_FILL0_wght300_GRAD0_opsz24.svg" alt="search">
+                </div>
+                </div>
+                <ol class="list-group" style="height:1100px; overflow-y:auto; margin-right: 4px;" id="loop-data">
+                  
+                </ol>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-2 sections">
+              <div class="row p-3" >
+                <div class="col-11" >
+                <h2 style="font-size: 24px; margin-bottom: 25px;"><b>Diagnosis History</b></h2>
+                </div>
+                <div class="row p-3" style="background-color: #F4F0FE; border-radius: 12px; margin-left: 14px; width: 96%;" >
+                <div class="col-8">
+                  <div class="row p-3">
+                  <div class="col-7">
+                  <h3 style="font-size: 18px;"><b>Blood Pressure</b></h3>
+                </div>
+                <div class="col-4">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 14px; font-weight: normal !important; margin-top: -8px !important;">
+                      Last 6 months 
+                    </button>
+                  </div>
+                </div>
+              </div>
+                  <canvas id="myChart"></canvas>
+                </div>
+                <div class="col-4">
+                  <h4 style="font-size: 14px; margin-top: 20px"><i class="bi bi-circle-fill" style="color: #E66FD2; padding-right: 5px;"></i><b>Systolic</b></h4>
+                  <h3 style="font-size: 22px; font-weight: bold; margin-top: 10px" id="blodSys"></h3>
+                  <h4 style="font-size: 14px; margin-top: 10px" id="pressureSys"><i class="bi bi-caret-up-fill"></i></h4>
+                  <h4 style="font-size: 14px; border-top: 1px solid #CBC8D4; padding-top: 20px !important; margin-top: 20px !important;"><i class="bi bi-circle-fill" style="color: #8C6FE6; padding-right: 5px;"></i><b>Diastolic</b></h4>
+                  <h3 style="font-size: 22px; font-weight: bold; margin-top: 10px" id="blodDias"></h3>  
+                  <h4 style="font-size: 14px; margin-top: 10px" id="pressureDias"><i class="bi bi-caret-down-fill"></i></h4>
+                </div>
+                </div>
+                </div>
+                <div class="row p-3" style="margin-left: 0px; width: 100%;">
+                <div class="col-4 p-3" style="background-color: #E0F3FA; border-radius: 12px; margin-right: 2%; width: 32%;">
+                  <img src="images/respiratory rate@2x.png" alt="Transactions" width="auto" height="96" >
+                  <h4 style="font-size: 16px; margin-top: 10px" >Respiratory Rate</h4>
+                  <h3 style="font-size: 30px; font-weight: bold; margin-top: 10px"><a id="respRate"></a> bpm</h3>
+                  <h4 style="font-size: 14px; margin-top: 10px" id="respRateLevel"></h4>  
+                </div>
+                <div class="col-4 p-3" style="background-color: #FFE6E9; border-radius: 12px; margin-right: 2%; width: 32%;">
+                  <img src="images/temperature@2x.png" alt="Transactions" width="auto" height="96" >
+                  <h4 style="font-size: 16px; margin-top: 10px" >Temperature</h4>
+                  <h3 style="font-size: 30px; font-weight: bold; margin-top: 10px"><a id="temps"></a> °F</h3>
+                  <h4 style="font-size: 14px; margin-top: 10px" id="tempsLevel"></h4>
+                </div>
+                <div class="col-4 p-3" style="background-color: #FFE6F1; border-radius: 12px; width: 32%;">
+                  <img src="images/HeartBPM@2x.png" alt="Transactions" width="auto" height="96" >
+                  <h4 style="font-size: 16px; margin-top: 10px" >Heart Rate</h4>
+                  <h3 style="font-size: 30px; font-weight: bold; margin-top: 10px" ><a id="heartRate"></a> bpm</h3>
+                  <h4 style="font-size: 14px; margin-top: 10px" id="heartRateLevel"><i class="bi bi-caret-down-fill" style="padding-right: 5px;"></i></h4>
+
+                </div>
+                </div>
+            </div>
+
+            <div class="p-2 sections" style="margin-top: 20px;">
+              <div class="row p-3" >
+                <div class="col-12" >
+                <h2 style="font-size: 24px; margin-bottom: 25px;"><b>Diagnostic List</b></h2>
+                '<div class="row" style="background-color: #F6F7F8; border-radius: 24px; padding-top: 14px; padding-bottom: 14px;">
+                  <div class="col-4" >
+                  <a class=" text-start" style="color: #072635; border: none; font-size:14px; text-decoration: none;"><b>Problem/Diagnosis</b></a>
+                  </div>
+                  <div class="col-6" >
+                  <a class=" text-start" style="color: #072635; border: none; font-size:14px; text-decoration: none;"><b>Description</b></a>
+                  </div>
+                  <div class="col-2" >
+                  <a class=" text-start" style="color: #072635; border: none; font-size:14px; text-decoration: none;"><b>Status</b></a>
+                  </div>
+                  </div>
+                <ol class="list-group" style="height:180px; overflow-y:auto; overflow-x:hidden; margin-top: 4px;" id="loop-data-diag">
+                  
+                </ol>
+                </div>
+                </div>
+            </div>
+
+          </div>
+          <div class="col-3">
+            <div class="p-2 sections" id="profileinfo" >
+
+            </div>
+
+            <div class="p-2 sections" style="margin-top: 20px;">
+              <div class="row p-3" >
+                <div class="col-12" >
+                <h2 style="font-size: 24px; margin-bottom: 25px;"><b>Lab Results</b></h2>
+                <ol class="list-group" style="height:150px; overflow-y:auto; overflow-x:hidden; margin-top: 4px;" id="loop-data-lab">
+                  
+                </ol>
+                </div>
+                </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div> 
+   <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>

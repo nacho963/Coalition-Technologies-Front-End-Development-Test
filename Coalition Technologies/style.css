@@ -1,0 +1,77 @@
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    top: 18px;
+    width: auto;
+    height: 72px;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border-radius: 70px;
+    opacity: 1;
+    margin-bottom: 32px;
+    color: #072635 !important;
+}
+
+body {
+    background: #F6F7F8 0% 0% no-repeat padding-box !important;
+    font-family: "Manrope", sans-serif !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+  }
+
+button {
+    font-size: 14px !important;
+    padding: 8px 16px !important;
+    margin: 0 10px !important;
+    font-weight: bold !important;
+}
+
+button.active {
+    background: #01F0D0 0% 0% no-repeat padding-box !important;
+    border-width: 0px;
+    border-radius: 41px;
+    opacity: 1;
+    
+    
+}
+
+button:hover {
+    background: #01F0D0 0% 0% no-repeat padding-box !important;
+    border-width: 0px;
+    border-radius: 41px;
+    opacity: 1;
+}	
+
+.user-button {
+    font-size: 14px !important;
+    color: #072635;
+    text-decoration: none;
+}
+
+.user-button2 {
+    font-size: 14px !important;
+    color: #707070;
+    text-decoration: none;
+}
+
+.sections{
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border-radius: 16px !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #E3E4E6; 
+border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #072635; 
+    border-radius: 3px;
+}
