@@ -1,11 +1,8 @@
-# Coalition-Technologies-Front-End-Development-Test
+# Coalition Technologies - Desktop Front End Development Test Application
 
-Coalition Technologies - Desktop Front End Development Test Application
-
-This was a skills test for the position Front End Developer. I was given a .psd file and asked to make a pixel-perfect website.
 
 This submission is the result of my skill test for the Front End Developer position at Coalition Technologies. 
-The objective of this assessment is to evaluate my capability to transform an Adobe Photoshop file(.psd) into a static, single-page web application. 
+The objective of this assessment is to evaluate my capability to transform an Adobe Photoshop file(.psd) into a static pixel-perfect website, single-page web application. 
 
 The primary goal is to convert the provided PSD into a dynamic desktop single-page website.
 
